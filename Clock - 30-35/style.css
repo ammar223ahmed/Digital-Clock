@@ -1,0 +1,63 @@
+body{
+    background-image: url(image/clock.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 40.5em;
+}
+.parenth1{
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 10px gray;
+    margin-top: 1.4em;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+.digital-clock-parent{
+    display: flex;
+    /* justify-content: center; */
+    gap: 40px;
+    margin-top: 15em;
+    margin-left: 3em;
+}
+
+.child-clock{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.7);
+    border: 2px solid black;
+    padding: 65px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2em;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: 2px 2px 5px gray;
+}
+.date{
+    cursor: pointer;
+    padding: 65px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2em;
+    font-family:'Courier New', Courier, monospace;   
+    margin-left: 5.3em;
+}
+
+
+.design{
+   position: relative;
+    /* color: black; */
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.design h2{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    bottom: 0;
+    left: 28em;
+   z-index: 1;
+}
